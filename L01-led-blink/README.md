@@ -67,6 +67,7 @@ Prema formoli `R = U/I` možemo izračunati otpor.
 
 ### Shema
 
+[![Shema](https://github.com/Blazp04/arduino/blob/main/L01-led-blink/shema.png "Shema")](https://github.com/Blazp04/arduino/blob/main/L01-led-blink/shema.png "Shema")
 
 
 
