@@ -25,11 +25,11 @@
 ------------
 
 ###  Korisni linkovi
-[Simulacija](https://wokwi.com/projects/340245559319200339 "Simulacija")
-[PinMode - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/ "Dokumentacija")
-[DigitalWrite - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/ "DigitalWrite detaljno objašnjenje")
-[Delay - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/time/delay/ "Delay detaljno objašnjenje")
-[Diode](https://www.electronics-tutorials.ws/diode/diode_8.html "Diode")
+[Simulacija](https://wokwi.com/projects/340245559319200339 "Simulacija") <br>
+[PinMode - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/ "Dokumentacija") <br>
+[DigitalWrite - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/ "DigitalWrite detaljno objašnjenje") <br>
+[Delay - detaljno objašnjenje](https://www.arduino.cc/reference/en/language/functions/time/delay/ "Delay detaljno objašnjenje") <br>
+[Diode](https://www.electronics-tutorials.ws/diode/diode_8.html "Diode") <br>
 
 ------------
 
