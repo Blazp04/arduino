@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Blaž Perić",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -148.49,
+      "left": 104.01,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -98.74,
+      "left": 127.7,
+      "attrs": { "value": "200" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "uno:GND.1", "green", [ "v0" ] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "uno:12", "green", [ "v9.64", "h-59.17" ] ]
+  ]
+}
