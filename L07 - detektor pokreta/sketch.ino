@@ -5,13 +5,15 @@ int relayPin = 7;
 // u koju ćemo kasnije spremiti podatke o detekciji pokreta
 bool pokretDetektiran;
 
-void setup() {
+void setup()
+{
   Serial.begin(9600);
   pinMode(senzorPokrata, INPUT);
   pinMode(relayPin, INPUT);
 }
 
-void loop() {
+void loop()
+{
   // Sada provjeravamo kakvo je stanje senzora.
   // Kada je pokret detektiran, stanje će biti HIGH
   // u tome slučaju želimo našoj varijabli dati vrijednost "true"
@@ -27,6 +29,5 @@ void loop() {
   {
     Serial.println("Senzor deaktiviran");
     digitalWrite(relayPin, LOW);
-
   }
 }
