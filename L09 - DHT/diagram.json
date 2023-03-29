@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Blaž Perić",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 66.67, "left": -26.67, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -98.91,
+      "left": 87.93,
+      "attrs": { "temperature": "20.5" }
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "uno:5V", "red", [ "v12.71", "h-146.6", "v259.33", "h172.67" ] ],
+    [ "dht1:GND", "uno:GND.2", "black", [ "v10.71", "h162.6", "v258.67", "h-149.33" ] ],
+    [ "dht1:SDA", "uno:2", "green", [ "v34.71", "h94.57" ] ]
+  ],
+  "dependencies": {}
+}
